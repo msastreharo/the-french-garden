@@ -1,13 +1,14 @@
 import React from "react"
 
-// Importing components
 import Layout from "./Components/Layout.jsx"
 
-export default function Home() {
+const Eventos = () => {
   return (
-    <div className="Home">
+    <div>
       <Layout />
-      <h1>Home page</h1>
+      <h1>Página de Eventos</h1>
     </div>
   )
 }
+
+export default Eventos

@@ -1,13 +1,14 @@
 import React from "react"
 
-// Importing components
 import Layout from "./Components/Layout.jsx"
 
-export default function Home() {
+const Contacto = () => {
   return (
-    <div className="Home">
+    <div>
       <Layout />
-      <h1>Home page</h1>
+      <h1>Página de Contacto</h1>
     </div>
   )
 }
+
+export default Contacto
