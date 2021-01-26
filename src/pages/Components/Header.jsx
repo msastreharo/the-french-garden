@@ -8,9 +8,11 @@ import logo from "../../../public/static/logo.png"
 function Header() {
   return (
     <div>
-      <Link to="/">
-        <img src={logo} alt="logo" className="headerImg" />
-      </Link>
+      <div className="headerWrapper">
+        <Link to="/">
+          <img src={logo} alt="logo" className="headerImg" />
+        </Link>
+      </div>
     </div>
   )
 }

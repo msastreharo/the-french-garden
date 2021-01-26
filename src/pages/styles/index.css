@@ -2,14 +2,33 @@
   background-color: #e1d6d6;
   text-align: center;
   justify-content: center;
+  max-width: 100%;
+  display: flex;
 }
 
-.headerImg {
-  width: 15em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* Header Image */
+
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }
+
+.headerWrapper img {
+  height: 23em;
+}
+
+.headerWrapper Link {
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .headerWrapper img {
+    height: 12em;
+  }
+}
+
+/* Navbar links */
 
 .navbarLinks {
   display: block;

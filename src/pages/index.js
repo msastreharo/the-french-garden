@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <div className="Home">
       <Layout />
-      <h1>Home page</h1>
+
+      <div className="presentation">
+        <h1>Hello</h1>
+      </div>
     </div>
   )
 }

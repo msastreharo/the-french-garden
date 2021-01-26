@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "./Components/Layout.jsx"
 
-const AcercaDe = () => {
+const acerca = () => {
   return (
     <div>
       <Layout />
@@ -11,4 +11,4 @@ const AcercaDe = () => {
   )
 }
 
-export default AcercaDe
+export default acerca

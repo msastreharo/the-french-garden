@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "./Components/Layout.jsx"
 
-const Eventos = () => {
+const eventos = () => {
   return (
     <div>
       <Layout />
@@ -11,4 +11,4 @@ const Eventos = () => {
   )
 }
 
-export default Eventos
+export default eventos
