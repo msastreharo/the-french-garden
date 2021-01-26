@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "./Components/Layout.jsx"
 
-const acerca = () => {
+const about = () => {
   return (
     <div>
       <Layout />
@@ -11,4 +11,4 @@ const acerca = () => {
   )
 }
 
-export default acerca
+export default about

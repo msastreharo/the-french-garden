@@ -1,46 +1,84 @@
+/* GENERAL LAYOUT (HEADER + NAVBAR) */
+
 .Layout {
-  background-color: #e1d6d6;
+  background-color: red;
   text-align: center;
   justify-content: center;
   max-width: 100%;
   display: flex;
+  margin: 0 auto;
 }
 
-/* Header Image */
+/* 
+HEADER (LOGO) ------------------------------------------------------------
+*/
 
 .headerWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 100%;
 }
 
+/* Desktop 1280x834px */
 .headerWrapper img {
   height: 23em;
 }
 
-.headerWrapper Link {
-  justify-content: center;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+/* iPad Pro 1024x1366px */
+@media (min-width: 768px) and (max-width: 1024px) {
   .headerWrapper img {
-    height: 12em;
+    min-height: 30em;
+    max-height: 50em;
   }
 }
 
-/* Navbar links */
+/* Smartphone 400x706px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .headerWrapper {
+    min-height: 15em;
+    max-height: 30em;
+  }
+}
 
+/* 
+NAVBAR (LINKS) ------------------------------------------------------------
+*/
+
+/* Desktop 1280x834px */
 .navbarLinks {
   display: block;
   flex-direction: row;
   text-align: center;
+  margin-bottom: 3.5em;
 }
 
 .navbarLinks a {
   text-decoration: none;
   padding: 0 2.5em;
-  font-size: 12px;
+  font-size: 18px;
   color: grey;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+/* iPad Pro 1024x1366px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbarLinks a {
+    padding: 0 2em;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Smartphone 400x706px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbarLinks {
+    margin-bottom: 2.5em;
+  }
+  .navbarLinks a {
+    padding: 0 1em;
+    font-size: 12px;
+    text-align: center;
+  }
 }

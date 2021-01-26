@@ -1,0 +1,85 @@
+/* HOME PAGE /*
+
+/* ------------------------------------------------------------
+TOP GRID ~ General layout
+*/
+
+/* Desktop 1280x834px */
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10em;
+  grid-gap: 4em;
+  height: 40em;
+  padding: 0 10em;
+}
+
+/* iPad Pro 1024x1366px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-section {
+  }
+}
+
+/* Smartphone 480x706px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* LEFT side of grid (one portrait img) ----------------- */
+
+/* Desktop 1280x834px */
+.grid-left {
+  background-color: pink;
+  display: flex;
+  align-items: right;
+}
+
+.grid-left img {
+  align-items: flex-end;
+  height: inherit;
+  align-self: right;
+}
+/* iPad Pro 1024x1366px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-section {
+  }
+}
+
+/* Smartphone 480x706px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-left {
+    background-color: pink;
+    padding: 0;
+  }
+}
+
+.grid-left img {
+  max-width: 30vw;
+  min-width: 20vh;
+  align-items: right;
+}
+
+/* RIGHT side of grid (text + small landscape img) -------------- */
+.grid-right {
+  flex-direction: column;
+  background: lightblue;
+}
+
+.grid-right h2 {
+  color: grey;
+}
+
+.grid-right img {
+  width: 300px;
+}
+
+/* COLUMN SECTION */
+.column-section {
+  background: lightyellow;
+}
+
+.column-section img {
+  width: 300px;
+}

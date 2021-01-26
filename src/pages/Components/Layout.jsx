@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/index.css"
 
 // Importing page components
 import Header from "./Header.jsx"
