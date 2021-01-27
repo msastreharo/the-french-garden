@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/index.css"
+import "../styles/body.css"
 
 // Importing page components
 import Header from "./Header.jsx"

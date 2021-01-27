@@ -5,22 +5,20 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `The French Garden`,
+    description: `Providing flowers for your events and celebrations.`,
+    author: "Marta Sastre Haro",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
+        name: `images`,
+        path: `${__dirname}/src/pages/img/`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `${__dirname}/src/img/`,
-      },
-    },
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
   ],

@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "./Components/Layout.jsx"
 
+import "./styles/body.css"
+
 const about = () => {
   return (
     <div>

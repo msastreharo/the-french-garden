@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/index.css"
 import { Link } from "gatsby"
+import "../styles/body.css"
 
 // Importing images
 import logo from "../../../public/static/logo.png"
